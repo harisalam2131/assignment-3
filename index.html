@@ -1,1 +1,332 @@
-<h1>Hello World Wide Web!</h1>
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="UTF-8">
+    <title>The Midnight Kitchen</title>
+    <!--Created by Haris Alam on Wed, Nov 11 2026 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Redaction+20&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        background: black;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: 'Redaction 20', serif;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        text-align: center;
+        color: #24543B;
+      }
+
+      h2 {
+        margin-top: -20px;
+        font-size: 1.5em;
+        text-align: center;
+        color: #A68B5B;
+      }
+
+      img {
+        border: 3px solid #A68B5B;
+        margin-top: 20px;
+        margin-left: 120px;
+        margin-bottom: 40px;
+        width: 80%;
+        height: 550px;
+      }
+
+      h3 {
+        font-size: 1em;
+        text-align: center;
+        color: #A68B5B;
+      }
+
+      .section-title {
+        margin-top: 50px;
+        font-size: 2em;
+        text-align: center;
+        color: #24543B;
+      }
+
+      .recipe-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+      }
+
+      .img-left {
+        border: 3px solid #A68B5B;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: 90%;
+        height: 325px;
+      }
+
+      .burger-title {
+        display: block;
+        margin-top: -20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 1.3em;
+        text-align: center;
+        color: #A68B5B;
+      }
+
+      .burger-description {
+        width: 360px;
+        margin: 0 auto;
+        text-align: center;
+        color: #E9E3D5;
+        font-size: 0.9em;
+        line-height: 1.5;
+      }
+
+      .img-right {
+        border: 3px solid #A68B5B;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: 90%;
+        height: 325px;
+      }
+
+      .pasta-title {
+        display: block;
+        margin-top: -20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 1.3em;
+        text-align: center;
+        color: #A68B5B;
+      }
+
+      .pasta-description {
+        width: 360px;
+        margin: 0 auto;
+        text-align: center;
+        color: #E9E3D5;
+        font-size: 0.9em;
+        line-height: 1.5;
+      }
+
+      .more-recipes {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        text-align: center;
+        color: #24543B;
+        font-size: 1.4em;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+
+      .more-recipes:hover {
+        color: #A68B5B;
+      }
+
+      .about-description {
+        width: 700px;
+        margin: 20px auto;
+        text-align: center;
+        color: #E9E3D5;
+        font-size: 1em;
+        line-height: 1.8;
+      }
+
+      .contact-description {
+        width: 700px;
+        margin: 20px auto;
+        text-align: center;
+        color: #E9E3D5;
+        font-size: 1em;
+        line-height: 1.8;
+      }
+
+      .contact-description a {
+        color: #A68B5B;
+      }
+
+      .contact-table {
+        width: 700px;
+        margin: 30px auto 60px;
+        border-collapse: collapse;
+        color: #E9E3D5;
+      }
+
+      .contact-table th,
+      .contact-table td {
+        border: 1px solid #A68B5B;
+        padding: 15px;
+        text-align: left;
+      }
+
+      .contact-table th {
+        background: #24543B;
+      }
+
+      nav {
+        margin-top: 40px;
+        text-align: center;
+        background: #24543B;
+        padding: 18px;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav li {
+        display: inline;
+        margin: 0 25px;
+      }
+
+      nav a {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      nav a:link {
+        color: white;
+      }
+
+      nav a:visited {
+        color: #E9E3D5;
+      }
+
+      nav a:hover {
+        color: #A68B5B;
+      }
+
+      nav a:active {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <a name="home"></a>
+      <h1>THE MIDNIGHT KITCHEN</h1>
+      <h2>Where late-night cravings come to life!</h2>
+
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#kitchen">THE KITCHEN</a></li>
+          <li><a href="#recipes">RECIPES</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <img src="FoodPhoto1.webp" width="960" height="550" alt="Stack of pancakes">
+      <h2>GOOD FOOD. LATE NIGHTS.</h2>
+      <h3>A collection of recipes, ingredients, and kitchen inspiration made for anyone who loves to cook.</h3>
+      
+      <a name="recipes"></a>
+      <h2 class="section-title">FEATURED RECIPES</h2>
+
+      <div class="recipe-grid">
+
+        <div>
+          <img class="img-left" src="BurgerPhoto.jpg" width="500" height="325" alt="Classic homemade cheeseburger">
+          <a class="burger-title" href="https://www.recipetineats.com/cheeseburger-recipe/">CLASSIC BURGER</a>
+          <p class="burger-description">A juicy homemade burger with a crispy edge, fresh toppings, and melted cheese.</p>
+        </div>
+
+        <div>
+          <img class="img-right" src="PastaPhoto.webp" width="500" height="325" alt="Creamy chicken pasta">
+          <a class="pasta-title" href="https://www.theburntbuttertable.com/the-best-creamy-chicken-pasta-recipe/">CHICKEN PASTA</a>
+          <p class="pasta-description">Creamy chicken pasta tossed in a rich, flavourful sauce with tender chicken and perfectly cooked pasta.</p>
+        </div>
+      </div>
+      <a class="more-recipes">EXPLORE MORE RECIPES</a>
+
+      <a name="kitchen"></a>
+      <div class="kitchen-section">
+        <h2 class="section-title">THE KITCHEN</h2>
+        <h3>Every great meal starts with the right ingredients, tools, and a little creativity.</h3>
+
+        <div class="recipe-grid">
+
+          <div>
+            <img class="img-left" src="IngredientsPhoto.jpeg" width="500" height="325" alt="Fresh cooking ingredients">
+            <h3>ESSENTIAL INGREDIENTS</h3>
+            <p class="burger-description">From fresh vegetables to pantry staples, great cooking begins with quality ingredients.</p>
+          </div>
+
+          <div>
+            <img class="img-right" src="KitchenToolsPhoto.jpg" width="500" height="325" alt="Essential kitchen tools">
+            <h3>KITCHEN ESSENTIALS</h3>
+            <p class="pasta-description">The right tools make preparing meals easier, faster, and more enjoyable.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <a name="about"></a>
+      <div class="about-section">
+        <h2 class="section-title">ABOUT THE MIDNIGHT KITCHEN</h2>
+
+        <p class="about-description">
+          The Midnight Kitchen was created from a love for cooking, experimenting with flavours, and making delicious meals. Whether it's a quick late-night snack or a homemade favourite, this space is all about finding inspiration in the kitchen and enjoying the process of creating something great.
+        </p>
+      </div>
+
+      <a name="contact"></a>
+      <div class="contact-section">
+        <h2 class="section-title">GET IN TOUCH</h2>
+
+        <p class="contact-description">
+          Have a recipe suggestion, cooking question, or just want to say hello?
+          Feel free to reach out!
+        </p>
+
+        <p class="contact-description">
+          Email: <a href="mailto:h7alam@uwaterloo.ca">h7alam@uwaterloo.ca</a>
+        </p>
+
+        <h3>WHAT YOU CAN FIND HERE</h3>
+
+        <table class="contact-table">
+          <tr>
+            <th>SECTION</th>
+            <th>WHAT YOU'LL FIND</th>
+          </tr>
+          <tr>
+            <td>Recipes</td>
+            <td>Delicious meals and cooking inspiration</td>
+          </tr>
+          <tr>
+            <td>The Kitchen</td>
+            <td>Essential ingredients and cooking tools</td>
+          </tr>
+          <tr>
+            <td>About</td>
+            <td>The story behind The Midnight Kitchen</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
